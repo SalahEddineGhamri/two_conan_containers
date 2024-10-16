@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "my_app/1.0",
+    "options": "addition_lib:fPIC=True\naddition_lib:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "../conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "addition_lib/1.0@salah/salah",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6557f18ca99c0b6a233f43db00e30efaa525e27e",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=11\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}

@@ -1,0 +1,34 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=11
+    os=Linux
+
+[requires]
+    addition_lib/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=11
+    os=Linux
+
+[full_requires]
+    addition_lib/1.0@salah/salah:6557f18ca99c0b6a233f43db00e30efaa525e27e
+
+[full_options]
+    addition_lib:fPIC=True
+    addition_lib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

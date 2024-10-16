@@ -1,0 +1,18 @@
+{
+ "options": [
+  [
+   "addition_lib:fPIC",
+   "True"
+  ],
+  [
+   "addition_lib:shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": "my_app",
+  "version": "1.0",
+  "user": null,
+  "channel": null
+ }
+}

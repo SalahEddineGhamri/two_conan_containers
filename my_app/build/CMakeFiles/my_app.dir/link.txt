@@ -1,0 +1,1 @@
+/usr/bin/c++   -m64 -O3 -DNDEBUG  CMakeFiles/my_app.dir/src/main.cpp.o -o bin/my_app   -L/home/dev/.conan/data/addition_lib/1.0/salah/salah/package/6557f18ca99c0b6a233f43db00e30efaa525e27e/lib  -Wl,-rpath,/home/dev/.conan/data/addition_lib/1.0/salah/salah/package/6557f18ca99c0b6a233f43db00e30efaa525e27e/lib -laddition_lib 
